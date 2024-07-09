@@ -30,7 +30,7 @@ public class ConversorMoneda {
         }
 
         //Construiir la api
-        String apiKey = "3965da2e8ce60738beabfaab"; // Reemplaza esto con tu clave API real.
+        String apiKey = "tu clave"; // Reemplaza esto con tu clave API real.
         String url = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + monedaOrigen + "/";
         URI direccion = URI.create(url);
         HttpClient client = HttpClient.newHttpClient();
